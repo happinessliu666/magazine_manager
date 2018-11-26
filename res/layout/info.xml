@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+
+    <TableLayout
+            android:id="@+id/capture_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+    >
+
+        <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="70px"
+                  android:text="书刊名称"
+                  android:textSize="70px"
+                  android:textColor="#000000"
+        />
+
+        <TextView
+                android:id="@+id/magazine_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="80px"
+                android:textAlignment="center"
+                android:text=""
+                android:textColor="#FF8C00"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="书刊位置"
+                android:textSize="70px"
+                android:textColor="#000000"
+        />
+
+        <TextView
+                android:id="@+id/magazine_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300px"
+                android:textSize="150px"
+                android:text=""
+                android:textColor="#FF0000"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="ISSN"
+                android:textSize="70px"
+                android:textColor="#000000"
+        />
+
+        <TextView
+                android:id="@+id/magazine_issn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180px"
+                android:textSize="80px"
+                android:text=""
+                android:textColor="#FF8C00"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="邮发代号"
+                android:textSize="70px"
+                android:textColor="#000000"
+        />
+
+        <TextView
+                android:id="@+id/magazine_postal_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300px"
+                android:textSize="80px"
+                android:text=""
+                android:textColor="#FF8C00"
+        />
+        <TextView
+                android:id="@+id/not_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="80px"
+                android:textColor="#FF0000"
+        />
+
+        <Button
+                android:id="@+id/telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:visibility="invisible"
+                android:text="联系电话：18317276011"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+    </TableLayout>
+
+    <Button
+            android:id="@+id/capture_restart_scan"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00BFFF"
+            android:gravity="center"
+            android:text="下一本"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+
+</RelativeLayout>

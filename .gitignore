@@ -1,0 +1,13 @@
+# binary files
+bin/
+
+# keys
+jdbc.properties
+
+# IDEA files
+
+# vim protective file
+*.swp
+
+# relese
+*.apk
